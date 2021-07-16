@@ -1,0 +1,77 @@
+.income-statement {
+  margin-top: 5px;
+}
+
+.balance-sheet-title, .income-statement-title {
+  font-size: 16px;
+  background-color: cadetblue;
+  color: white;
+  padding: 0;
+  text-align: center;
+
+}
+
+.description-prop, .code, .current-rate, .prev-rate, .type-active {
+
+  font-size: 13px;
+  color: cadetblue;
+  padding: 0 5px 0;
+
+  &.upper {
+    text-transform: uppercase;
+  }
+
+  &.ital {
+    font-style: italic;
+  }
+
+  &.text, &.text-bold {
+    color: black;
+    font-size: 11px;
+  }
+
+  &.text-bold {
+    font-weight: bold;
+  }
+
+  &.bg {
+    background-color: #f1ecec;
+  }
+
+
+}
+
+.current-rate, .prev-rate {
+  padding: 0;
+}
+
+.description-prop {
+  text-align: start;
+}
+
+.code, .current-rate, .prev-rate {
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #ccc;
+}
+
+tr > th {
+  border-bottom: 2px solid cadetblue;
+}
+
+input[type=text] {
+  text-align: center;
+  padding: 0 3px;
+  border: none;
+  width: 100%;
+  outline: none;
+
+  .ng-invalid {
+    border: 1px solid #cccccc
+  }
+
+}
+
+
